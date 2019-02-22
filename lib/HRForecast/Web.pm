@@ -789,7 +789,7 @@ post '/api/:service_name/:section_name/:graph_name' => sub {
         'number' => {
             rule => [
                 ['NOT_NULL','number is null'],
-                ['INT','number is not int']
+##                ['INT','number is not int']
             ],
         },
         'datetime' => {
